@@ -1,10 +1,4 @@
-var myFunctions = require('../lib/miles');
-
-// describe('Basic test structure', function() {
-//   it('', function() {
-//     expect(myFunctions. .toEqual())
-//     })
-//   })
+var milesFunction = require('../lib/miles');
 
 describe('Miles', function() {
   
@@ -21,6 +15,6 @@ describe('Miles', function() {
       location: "Fancy Land"
     };
 
-    expect(myFunctions.hasEnoughGas(car, route)).toEqual(false)
+    expect(milesFunction.hasEnoughGas(car, route)).toEqual(false)
     })
   })
